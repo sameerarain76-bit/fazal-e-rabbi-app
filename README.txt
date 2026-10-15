@@ -11,3 +11,5 @@ Data is stored only in this browser's localStorage, not synced. Export JSON back
 Features: stock/batches and expiry, sales with customer credit, customers/suppliers, payments, purchases, expenses, daily and monthly profit reports, JSON import/export.
 
 This is an initial prototype. Test calculations and backup/restore with sample records before using for real shop accounting.
+
+PHASE 3A (2026-10-15): Edit product metadata/prices (not historical prices), customer/supplier details, expenses, and payment amounts. A corrections audit list is shown in Reports. Existing storage KEY remains unchanged. Do not edit sale/purchase transactions via this build; use returns and fresh corrected transactions until transaction-safe editing is implemented. Always export and keep a verified backup before upgrading.
