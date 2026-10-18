@@ -1,4 +1,4 @@
-const CACHE='fazal-master-25-v1';
+const CACHE='fazal-master26-hub-v1';
 const APP=['./','./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(APP)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>(k.startsWith('fazal-rabbi-offline-')||k.startsWith('fazal-master-24-')||k.startsWith('fazal-master-25-'))&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
