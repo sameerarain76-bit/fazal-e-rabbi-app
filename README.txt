@@ -7,3 +7,5 @@ Features: Stock In for many products under one supplier, separate Stock Out with
 PDF creation: Use the browser Print function; on iPhone choose Share/Save to Files from the print preview to create PDF, then send the saved PDF over WhatsApp. No server or WhatsApp API is required.
 
 IMPORTANT: The app is local-only. Keep backups safe. Supplier returns require both a Stock Out and (if supplier has approved credit) an explicit Return Credit adjustment. Stock Out never changes payable directly.
+
+Navigation update: Every non-home screen has Back and Home controls. Forms have a Back button with an unsaved-changes confirmation. The bottom Home shortcut remains available.
